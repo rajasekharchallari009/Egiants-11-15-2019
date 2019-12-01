@@ -1,12 +1,12 @@
-package com.example.springrmiserver;
+package com.howtodoinjava.hessianserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringRmiServerApplication {
+public class HessianServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringRmiServerApplication.class, args);
+		SpringApplication.run(HessianServerApplication.class, args);
 	}
 }
